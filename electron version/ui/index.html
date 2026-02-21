@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>UWL 2.0</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>UWL</h2>
+    <div id="workspaceList"></div>
+    <button id="addBtn">+ Add Workspace</button>
+</div>
+
+<div class="main">
+    <h1>Dashboard</h1>
+
+    <div id="details"></div>
+
+    <div id="workspaceControls">
+        <button id="renameBtn">Rename</button>
+        <button id="deleteBtn">Delete</button>
+        <button id="clearAppsBtn">Clear Apps</button>
+    </div>
+
+    <hr>
+
+    <button id="captureBtn">Capture Current Windows</button>
+    <div id="windowList"></div>
+</div>
+
+<script src="renderer.js"></script>
+</body>
+</html>

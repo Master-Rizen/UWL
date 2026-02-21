@@ -1,0 +1,32 @@
+{
+  "Study": {
+    "apps": [
+      {
+        "processName": "chrome",
+        "title": "Field Project - UWL Project Overview - Google Chrome"
+      },
+      {
+        "processName": "Code",
+        "title": "renderer.js - uwl-project - Visual Studio Code"
+      },
+      {
+        "processName": "Copilot",
+        "title": "Fixing 'npm' Not Recognized Error in PowerShell"
+      }
+    ],
+    "notes": "",
+    "timeLogged": 0,
+    "createdAt": 1771693404188
+  },
+  "Pandago": {
+    "apps": [
+      {
+        "processName": "Copilot",
+        "title": "Fixing 'npm' Not Recognized Error in PowerShell"
+      }
+    ],
+    "notes": "",
+    "timeLogged": 0,
+    "createdAt": 1771696100303
+  }
+}

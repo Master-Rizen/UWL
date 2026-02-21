@@ -1,0 +1,40 @@
+{
+  "Study": {
+    "apps": [
+      {
+        "processName": "chrome",
+        "title": "New tab - Google Chrome"
+      },
+      {
+        "processName": "Code",
+        "title": "Welcome - Visual Studio Code"
+      }
+    ],
+    "notes": "",
+    "timeLogged": 295,
+    "createdAt": 1771693404188,
+    "blockedApps": [
+      "copilot",
+      "notepad"
+    ]
+  },
+  "Pandagoo": {
+    "apps": [
+      {
+        "processName": "EXCEL",
+        "title": "Excel"
+      },
+      {
+        "processName": "POWERPNT",
+        "title": "PowerPoint"
+      },
+      {
+        "processName": "WINWORD",
+        "title": "Word"
+      }
+    ],
+    "notes": "",
+    "timeLogged": 535,
+    "createdAt": 1771696100303
+  }
+}

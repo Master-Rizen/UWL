@@ -1,0 +1,80 @@
+{
+  "Study": {
+    "apps": [
+      {
+        "processName": "brave",
+        "title": "1.6 Classes of functions - YouTube - Brave"
+      },
+      {
+        "processName": "chrome",
+        "title": "DeepSeek - Into the Unknown - Google Chrome"
+      },
+      {
+        "processName": "Notepad",
+        "title": "*page 1 - Notepad"
+      }
+    ],
+    "notes": "",
+    "timeLogged": 1843,
+    "createdAt": 1771693404188,
+    "blockedApps": [
+      "copilot",
+      "whatsapp.root"
+    ]
+  },
+  "Teaching": {
+    "apps": [
+      {
+        "processName": "EXCEL",
+        "title": "Excel"
+      },
+      {
+        "processName": "POWERPNT",
+        "title": "PowerPoint"
+      },
+      {
+        "processName": "WINWORD",
+        "title": "Word"
+      }
+    ],
+    "notes": "",
+    "timeLogged": 1237,
+    "createdAt": 1771696100303
+  },
+  "_lastWorkspace": "Trail",
+  "Trail": {
+    "apps": [
+      {
+        "processName": "chrome",
+        "title": "New tab - Google Chrome",
+        "exePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "x": 762,
+        "y": 456,
+        "width": 781,
+        "height": 462
+      },
+      {
+        "processName": "msedge",
+        "title": "New tab - Personal - Microsoft? Edge",
+        "exePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "x": 762,
+        "y": 0,
+        "width": 781,
+        "height": 462
+      },
+      {
+        "processName": "Notepad",
+        "title": "*page 1 - Notepad",
+        "exePath": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2510.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+        "x": -6,
+        "y": 0,
+        "width": 779,
+        "height": 918
+      }
+    ],
+    "blockedApps": [],
+    "notes": "",
+    "timeLogged": 8522,
+    "createdAt": 1771743570478
+  }
+}

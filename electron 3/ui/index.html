@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>UWL 2.0</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">UWL</h2>
+
+    <div class="workspace-section">
+      <h4>Workspaces</h4>
+      <div id="workspaceList" class="workspace-list"></div>
+      <button id="addBtn" class="primary-btn">+ New Workspace</button>
+    </div>
+  </aside>
+
+  <!-- Main Area -->
+  <main class="main">
+
+    <!-- Workspace Info Card -->
+    <section class="card workspace-card">
+  <div id="details"></div>
+</section>
+
+    <!-- Stats Row -->
+    <section class="stats-row">
+      <div class="card stat-card">
+        <h4>Total Usage</h4>
+        <p id="totalUsage">0 mins</p>
+      </div>
+
+      <div class="card stat-card">
+        <h4>Most Used</h4>
+        <p id="mostUsed">N/A</p>
+      </div>
+
+      <div class="card stat-card">
+        <h4>Focus Mode</h4>
+        <p id="focusStatus">Inactive</p>
+      </div>
+    </section>
+
+    <!-- Actions -->
+    <section class="card action-card">
+      <h3>Workspace Actions</h3>
+      <div class="action-buttons">
+        <button id="captureBtn" class="secondary-btn">Capture Apps</button>
+        <button id="launchBtn" class="primary-btn">Launch Workspace</button>
+        <button id="renameBtn" class="secondary-btn">Rename</button>
+        <button id="deleteBtn" class="danger-btn">Delete</button>
+        <button id="clearAppsBtn" class="secondary-btn">Clear Apps</button>
+      </div>
+      <div id="windowList"></div>
+    </section>
+
+    <!-- Focus Section -->
+    <section class="card focus-card">
+      <h3>Focus Mode</h3>
+      <button id="focusBtn" class="primary-btn">Start Focus Mode</button>
+
+      <h4 style="margin-top:20px;">Blocked Apps</h4>
+      <button id="selectBlockedBtn" class="secondary-btn">Select Apps to Block</button>
+      <div id="blockedAppsList"></div>
+    </section>
+
+  </main>
+</div>
+
+<script src="renderer.js"></script>
+</body>
+
+</html>
